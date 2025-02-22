@@ -1,5 +1,6 @@
 'use client'
 import React from 'react';
+import styles from './Button.module.css'
 
 export const SceneButton = ({ children, onClick, style }) => {
   const defaultStyle = {
@@ -9,7 +10,7 @@ export const SceneButton = ({ children, onClick, style }) => {
   };
 
   return (
-    <button onClick={onClick} style={{ ...defaultStyle, ...style }}>
+    <button onClick={onClick} className={styles.Button}>
       {children}
     </button>
   );

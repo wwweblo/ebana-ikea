@@ -1,0 +1,11 @@
+.Button{
+    font-size: 16px;
+    margin: 5px;
+    padding: 2px 5px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: 0.2s;
+}
+
+
+.Button:hover{ border: 1px solid #ffffff }

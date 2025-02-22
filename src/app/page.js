@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from "react";
 import Scene from "../components/Scene";
-import { SceneButton } from "../components/SceneButton";
+import { SceneButton } from "../components/Button/Button";
 import SceneLayout from "../components/SceneLayout";
 
 export default function Home() {
